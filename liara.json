@@ -1,13 +1,14 @@
 {
-    "disks": [
+    "disks":[
         {
             "name": "database",
             "mountTo": "data/"
         },
-        
         {
             "name": "data",
-            "mountTo": "wwwroot/images"
+            "mountTo": "wwwroot/images/"
         }
-    ]
+    ],
+    "app": "dotnet-blog",
+    "port":80
 }
